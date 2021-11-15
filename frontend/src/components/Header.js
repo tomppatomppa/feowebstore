@@ -4,7 +4,13 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' CollapseOnSelect>
+      <Navbar
+        className='color-nav'
+        bg='dark'
+        variant='dark'
+        expand='lg'
+        CollapseOnSelect
+      >
         <Container>
           <Navbar.Brand href='/'>Feo By Tika</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -14,7 +20,7 @@ const Header = () => {
                 <i className='fas fa-shopping-cart'></i> Cart
               </Nav.Link>
               <Nav.Link href='/login'>
-                <i className='fas fa-user'></i> Cart
+                <i className='fas fa-user'></i> Log In
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
