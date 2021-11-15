@@ -2,6 +2,13 @@ main {
   min-height: 80vh;
 }
 
+header {
+  background: #ffc4f4;
+  background: -webkit-linear-gradient(top left, #ffc4f4, #e085bb);
+  background: -moz-linear-gradient(top left, #ffc4f4, #e085bb);
+  background: linear-gradient(to bottom right, #ffc4f4, #e085bb);
+}
+
 h3 {
   padding: 1rem 0;
 }

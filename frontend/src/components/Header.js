@@ -1,18 +1,14 @@
 import React from 'react'
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav, Container, color } from 'react-bootstrap'
 
 const Header = () => {
   return (
     <header>
-      <Navbar
-        className='color-nav'
-        bg='dark'
-        variant='dark'
-        expand='lg'
-        CollapseOnSelect
-      >
+      <Navbar variant='dark' expand='lg' CollapseOnSelect>
         <Container>
-          <Navbar.Brand href='/'>Feo By Tika</Navbar.Brand>
+          <Navbar.Brand color='blue' href='/'>
+            Feo By Tika
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
